@@ -18,3 +18,11 @@ spring:
       url: jdbc:mysql://localhost:3306/db01?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
       username: root
       password: 123456
+      #Eureka配置，服务注册到哪
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    instance-id: springcould-provider-dept-8001
+    prefer-ip-address: true #修改eureka上的默认描述信息

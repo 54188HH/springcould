@@ -12,6 +12,18 @@
     <artifactId>springcould-provider-dept-8001</artifactId>
 
     <dependencies>
+        <!--eureka-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
+        <!--actuator 完善监控信息-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
         <!--拿到springcould-api里面的pojo实体类-->
         <dependency>
             <groupId>com.lzq</groupId>
