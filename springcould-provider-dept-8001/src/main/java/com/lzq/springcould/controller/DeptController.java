@@ -16,6 +16,7 @@ public class DeptController {
 
     @GetMapping("/queryDept")
     public List<Dept> method(){
+
        return service.queryAll();
     }
 }
