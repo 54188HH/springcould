@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcould-api" />
         <module name="springcould-consumer-dept-8080" />
+        <module name="springcould-eureka-7001" />
+        <module name="springcould-eureka-7002" />
+        <module name="springcould-eureka-7003" />
         <module name="springcould-provider-dept-8001" />
       </profile>
     </annotationProcessing>
