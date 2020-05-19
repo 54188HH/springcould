@@ -11,6 +11,18 @@
 
     <artifactId>springcould-consumer-dept-8080</artifactId>
     <dependencies>
+        <!--ribbon-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
+        <!--eureka-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
         <!--拿到springcould-api里面的pojo实体类-->
         <dependency>
             <groupId>com.lzq</groupId>

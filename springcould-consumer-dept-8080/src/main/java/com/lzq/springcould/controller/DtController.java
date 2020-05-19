@@ -13,9 +13,11 @@ public class DtController {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String REST_URL="http://localhost:8001";
+    //Ribbon 我们这里的地址 应该是一个变量，通过服务名来访问SPRINGCOULD-DEPT
+    //private static final String REST_URL="http://localhost:8001";
+    private static final String REST_URL="http://SPRINGCOULD-DEPT";
     @GetMapping("/list")
     public List<Dept> list(){
-        return (List<Dept>) restTemplate.getForObject(REST_URL+"/queryDept",List.class);
+         return (List<Dept>) restTemplate.getForObject(REST_URL+"/queryDept",List.class);
     }
 }
