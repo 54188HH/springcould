@@ -1,4 +1,4 @@
-package com.lzq.springcloud.pojo;
+package com.lzq.springcould.pojo;
 
 import java.io.Serializable;
 

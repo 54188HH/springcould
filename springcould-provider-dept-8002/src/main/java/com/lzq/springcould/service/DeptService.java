@@ -1,6 +1,6 @@
 package com.lzq.springcould.service;
 
-import com.lzq.springcloud.pojo.Dept;
+import com.lzq.springcould.pojo.Dept;
 
 import java.util.List;
 

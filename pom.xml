@@ -15,6 +15,7 @@
         <module>springcould-eureka-7003</module>
         <module>springcould-provider-dept-8002</module>
         <module>springcould-provider-dept-8003</module>
+        <module>springcould-consumer-dept-feign</module>
     </modules>
     <!--打包方式-->
     <packaging>pom</packaging>

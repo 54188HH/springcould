@@ -1,6 +1,6 @@
 package com.lzq.springcould.dao;
 
-import com.lzq.springcloud.pojo.Dept;
+import com.lzq.springcould.pojo.Dept;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

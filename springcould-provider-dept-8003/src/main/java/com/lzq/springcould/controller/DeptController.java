@@ -1,6 +1,6 @@
 package com.lzq.springcould.controller;
 
-import com.lzq.springcloud.pojo.Dept;
+import com.lzq.springcould.pojo.Dept;
 import com.lzq.springcould.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

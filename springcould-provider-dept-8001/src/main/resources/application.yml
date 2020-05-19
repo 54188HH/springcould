@@ -2,7 +2,7 @@ server:
   port: 8001
 #mybatis
 mybatis:
-  type-aliases-package: com.lzq.springcloud.pojo
+  type-aliases-package: com.lzq.springcould.pojo
   config-location: classpath:mybatis-config.xml
   mapper-locations: classpath:mapper/*.xml
 

@@ -1,6 +1,6 @@
 package com.lzq.springcould.service.serviceImpl;
 
-import com.lzq.springcloud.pojo.Dept;
+import com.lzq.springcould.pojo.Dept;
 import com.lzq.springcould.dao.DeptMapper;
 import com.lzq.springcould.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
