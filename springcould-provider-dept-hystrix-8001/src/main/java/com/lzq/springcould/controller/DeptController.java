@@ -30,7 +30,7 @@ public class DeptController {
         Dept dept = new Dept();
         dept.setDbSource("this id no mysql");
         dept.setDeptId(1);
-        dept.setDeptName("查询信息发生异常。。。。");
+        dept.setDeptName("查询信息发生异常.....");
         List<Dept> lsit = new ArrayList<>();
         lsit.add(dept);
         return lsit;
